@@ -12,10 +12,11 @@ $(document).ready(function(){
     });
 
 
-    $('div.menu ul li a').on(click, function(e){
+    /*$('div.menu ul li a').on(click, function(e){
         e.preventDefault();
         closeMenu();
-    });
+        window.location = e.target.href;
+    });*/
 
     function openMenu(){
         $('.mobile-menu-toggle').addClass('open');
